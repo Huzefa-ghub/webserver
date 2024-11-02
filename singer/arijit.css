@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(51, 49, 49);
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.frame {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    filter: brightness(90%);
+}
+
+.frame img {
+    position: relative;
+}
+
+#atif_bg_img {
+
+    margin-top: 50px;
+    filter: blur(2px);
+}
+
+.photo {
+
+    position: absolute;
+    display: flex;
+    margin-right: 20vh;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.photo img {
+    margin: 175px 0 0 0;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.photo .arijit_data {
+    padding: 90px;
+    font-size: 2rem;
+    color: rgb(253, 253, 253);
+
+}
+
+.photo h2 {
+    font-size: 7vh;
+    color: rgb(255, 255, 255);
+}
+
+.arijit_data h1 {
+    border: 1px solid rgb(255, 254, 254);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+}
+
+.arijit_data h2 {
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.arijit_data p {
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+}
+
+.arijit_data button {
+    border: 1px solid white;
+    color: aliceblue;
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+    transition: transform 0.2s;
+    width: fit-content;
+    font-size: xxx-large;
+    
+}
+
+.arijit_data button:hover {
+    transform: scale(1.2);
+    /* box-shadow: -2px 0 .3em red, -2px 0 .3em red; */
+}
+
+.arijit_data button a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: aliceblue;
+}
+.frame1 {
+    margin-top: 10px;
+    display: flex;
+
+}
+
+.frame1 .about {
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    color: aliceblue;
+    margin: 0 500px 0 20px;
+    border-radius: 20px;
+    border: 5px solid rgb(255, 255, 255);
+}
+
+.frame1 .about h1 {
+    font-size: 60px;
+    text-decoration: underline;
+}
+
+.frame1 .about p {
+    font-size: 2rem;
+    text-wrap: balance;
+}
+
+.frame2 {
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.frame2 .songs {
+    background-color: rgb(0, 0, 0);
+    border: 5px solid rgb(255, 255, 255);
+    color: aliceblue;
+    padding: 10px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.frame2 .songs h1 {
+    text-transform: capitalize;
+    font-size: 60px;
+
+}
+
+.frame2 .songs ol {
+    width: fit-content;
+    font-size: 35px;
+}
+
+.relate {
+    margin-left: 45px;
+    margin-top: 70px;
+    font-size: 60px;
+    padding: 10px;
+    text-transform: capitalize;
+    text-decoration: underline;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+.singers {
+    display: flex;
+    justify-self: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.singers .sing {
+    margin: 0 70px;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    border: 5px solid white;
+    color: aliceblue;
+    text-decoration: underline;
+
+}
+
+.singers .sing .mz {
+    padding: 20px;
+}
+
+.singers .sing .mz img {
+    border: 2px solid rgb(255, 255, 255);
+    transition: transform 0.2s;
+}
+
+.singers .sing .mz img:hover {
+    box-shadow: -2px 0 .9em red, -2px 0 .9em red;
+    transform: scale(1.1);
+}
+
+.singers .sing .mz p {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.singers .sing .atif {
+    padding: 20px;
+}
+
+.singers .sing .atif img {
+    border: 2px solid rgb(255, 255, 255);
+    transition: transform 0.2s;
+}
+
+.singers .sing .atif img:hover {
+    box-shadow: -2px 0 .9em red, -2px 0 .9em red;
+    transform: scale(1.1);
+}
+
+.singers .sing .atif p {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}

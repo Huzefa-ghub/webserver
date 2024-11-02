@@ -1,0 +1,222 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(51, 49, 49);
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.frame {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    filter: brightness(90%);
+}
+
+.frame img {
+    position: relative;
+    margin: 81px 0 0 0;
+}
+
+#atif_bg_img {
+
+    margin-top: 50px;
+    filter: blur(2px);
+}
+
+.photo {
+   
+    position: absolute;
+    display: flex;
+    /* margin-right: 20vh; */
+    align-items: center;
+}
+
+.photo img {
+    margin: 175px 0 0 0;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.photo .atif_data {
+    
+    padding: 0 0 0 90px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+
+}
+
+.photo h2 {
+    font-size: 7vh;
+    color: beige;
+}
+
+.atif_data h1 {
+    border: 1px solid white;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+}
+
+.atif_data h2 {
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    text-align: center;
+
+}
+
+.atif_data p {
+    border: 1px solid rgb(255, 255, 255);
+    color: aliceblue;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+}
+
+.atif_data button {
+    border: 1px solid white;
+    color: aliceblue;
+    background-color: rgb(247, 3, 3);
+    border-radius: 10px;
+    transition: transform 0.2s;
+    width: fit-content;
+    font-size: xxx-large;
+    
+}
+
+.atif_data button:hover {
+    transform: scale(1.2);
+    /* box-shadow: -2px 0 .3em #8919ca, -2px 0 .3em #8919ca; */
+}
+
+.atif_data button a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: aliceblue;
+}
+
+.frame1 {
+    margin-top: 10px;
+    display: flex;
+  
+}
+
+.frame1 .about {
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    margin: 0 500px 0 20px;
+    color: aliceblue;
+    border: 5px solid white;
+    border-radius: 20px;
+    
+}
+
+.frame1 .about h1 {
+ 
+    font-size: 4rem;
+    text-decoration: underline;
+}
+
+.frame1 .about p {
+  
+    font-size: 2rem;
+    text-wrap: balance;
+   
+}
+
+.frame2 {
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.frame2 .songs {
+    color: aliceblue;
+    border: 5px solid white;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.frame2 .songs h1 {
+    text-transform: capitalize;
+    font-size: 60px;
+
+}
+
+.frame2 .songs ol {
+    margin: 1rem;
+    width: fit-content;
+    font-size: 3rem;
+}
+.relate{
+    margin-left: 45px;
+    margin-top: 70px;
+    font-size: 60px;
+    padding: 10px;
+    text-transform: capitalize;
+    text-decoration:underline;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+.singers {
+    display: flex;
+    justify-self: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+
+
+}
+.singers .sing{
+    color: aliceblue;
+    border: 5px solid white;
+    margin: 0 70px;
+    text-decoration: underline;
+   display: flex;
+   background-color: rgb(0, 0, 0);
+   
+}
+.singers .sing .mz{
+    padding: 20px;
+}
+
+.singers .sing .mz img{
+   border: 1px solid white;
+    
+    transition: transform 0.2s;
+}
+
+.singers .sing .mz img:hover{
+    box-shadow: -2px 0 .9em red , -2px 0 .9em red;
+    transform: scale(1.1);
+}
+.singers .sing .mz p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.singers .sing .arijit{
+    padding: 20px;
+}
+
+.singers .sing .arijit img{
+   border: 1px solid white;
+
+    transition: transform 0.2s;
+}
+
+.singers .sing .arijit img:hover{
+    box-shadow: -2px 0 .9em red , -2px 0 .9em red;
+    transform: scale(1.1);
+}
+.singers .sing .arijit p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}

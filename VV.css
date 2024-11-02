@@ -1,0 +1,384 @@
+@font-face {
+    font-family: Font0;
+    src: url(Fonts/Vogue.ttf);
+}
+
+@font-face {
+    font-family: Font1;
+    src: url(Fonts/evanescent.ttf);
+}
+
+@font-face {
+    font-family: Font2;
+    src: url(Fonts/IMPACTFUL.ttf);
+}
+
+@font-face {
+    font-family: Font3;
+    src: url(Fonts/GODOFWAR.TTF);
+}
+
+@font-face {
+    font-family: Font4;
+    src: url(Fonts/Metal\ Mania.otf);
+}
+@font-face {
+    font-family: Font5;
+    src: url(Fonts/Crunch\ Chips.otf);
+}
+
+
+body {
+    
+    height: calc(100vh - 50vh);
+    background-image: url(img/bgimage.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    border-radius: 7px;
+}
+
+.docker {
+    display: flex;
+    font-family: Font3;
+    justify-content: center;
+    color: white;
+    text-shadow: rgb(204, 0, 255) 10px 0 20px;
+
+}
+
+.container {
+    margin: 200px 0px 20px;
+    width: auto;
+}
+
+.welcome {
+
+    font-family: Font2;
+    font-size: 3vw;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    /* margin-left:0px 10px; */
+    text-shadow: rgb(204, 0, 255) 10px 0 20px;
+
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    margin: 0px 50px;
+    width: auto;
+}
+
+.container1 h1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.container1 .about {
+    margin: 0;
+    text-shadow: rgb(204, 0, 255) 10px 0 20px;
+    color: rgb(255, 255, 255);
+    font-family: Font1;
+    display: flex;
+    font-size: 1vw;
+
+}
+
+.container2 {
+width: fit-content;
+   
+    display: flex;
+    flex-direction: row;
+}
+
+.container2 img {
+    padding: 10px;
+    border-radius: 20px;
+    height: 70vh;
+}
+
+.about_velvet_visions{
+    margin-bottom: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    
+    
+}
+.about_velvet_visions .about{
+    font-size: xx-large;
+    margin: 0 0 0 20px;
+    width: 46vw;
+    align-items: center;
+    background-color: #000000;
+    padding: 15px;
+    text-align: center; 
+    color: aliceblue;
+    text-wrap: balance;
+    border-radius: 50px;
+    border: #ffffff 5px solid;
+    
+}
+.about_velvet_visions .about h3{
+    text-decoration: underline;
+    font-family: Font0;
+    text-shadow :rgb(204, 0, 255) 10px 0 20px;
+    font-size: 5vw;
+    
+}
+
+.about_velvet_visions .mission{
+    border-radius: 50px;
+    border: #ffffff 5px solid;
+    margin: 0 20px 0 650px;
+    font-size: xx-large;
+    width: fit-content;
+    background-color: #000000;
+    padding: 20px;
+    text-align: center; 
+    color: aliceblue;
+    text-wrap: balance;
+    
+}
+
+.about_velvet_visions .mission h3{
+font-size: 5vw;
+    text-decoration: underline;
+    font-family: Font0;
+    text-shadow :rgb(204, 0, 255) 10px 0 20px;
+}
+
+
+.singer_heading{
+display: flex;
+justify-content: center;
+}
+
+
+/*Singers performing text*/
+.singer_heading h3{
+    text-transform: uppercase;
+    font-family: Font2;
+    font-size: 3vw;
+    border-radius: 10px;
+    text-shadow: rgb(204, 0, 255) 5px 2px 5px;
+    margin-bottom: 10px;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    color: #ffffff; 
+}
+
+.singers {  
+    /* backdrop-filter: blur(20px); */
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Font0;
+    /* text-shadow: #fc0 10px 0 20px; */
+    text-decoration: none;
+    padding: 20px;
+    margin-bottom: 200px;
+}
+.atif{
+    border-radius: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    margin: 0px 100px 0 90px;
+    
+}
+.atif img:hover{
+    box-shadow: -2px 0 .9em red , -2px 0 .9em red;
+
+}
+.mustafa_zahid{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0px 200px 0 90px;
+    
+    
+}
+.mustafa_zahid img:hover{
+   
+    box-shadow: -2px 0 .9em red , -2px 0 .9em red;
+
+}
+.arijit{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #000000;
+    /* backdrop-filter: blur(20px); */
+    margin: 0px 70px 0 0px;
+    color: #ffffff;
+}
+.arijit img:hover{
+    box-shadow: -2px 0 .9em red , -2px 0 .9em red;
+
+}
+
+.scroll {
+    margin-left: 32%;
+    text-shadow: rgb(204, 0, 255) 10px 0 20px;
+    color: rgb(255, 255, 255);
+    font-family: Font1;
+    display: flex;
+    font-size: 4vw;
+    padding-bottom: 400px;
+
+
+    animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+a {
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
+    transition: transform 0.2s;
+}
+
+a:hover {
+
+    transform: scale(1.1);
+}
+
+footer {
+    
+    background-color: black;
+    /* height: 50vh;  */
+    display: flex;
+   
+}
+
+/* CSS for Partnered Post */
+
+.partner{
+    
+    font-size:medium;
+}
+.partnered-post {
+    /* background-color: #302f2f; */
+    /* backdrop-filter: blur(20px); */
+    
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .partnered-post-header h1 {
+    margin-top: 0;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-shadow: rgb(0, 0, 0) 2px 1px 2px;
+    padding: 2rem 0;
+  }
+  
+  .partnered-post-header p {
+    text-shadow: rgb(0, 0, 0) 2px 1px 2px;
+
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+  
+  .partnered-post-content {
+    color:   #ffffff;
+    text-shadow: rgb(0, 0, 0) 2px 1px 2px;
+    
+    
+  }
+  .partnered-post-content iframe{
+    margin-top: 20px;
+  }
+
+  .partnered-post-content a{
+    text-decoration: none;
+    color: #fa0303;
+  }
+  .partnered-post-content a:hover{
+    text-decoration:underline;
+  }
+  
+  .partnered-post-footer {
+    margin-top: 20px;
+    color: #ffffff;
+    text-transform: capitalize;
+    text-shadow: rgb(0, 0, 0) 2px 1px 2px;
+
+  }
+  
+  .partnered-post-footer a {
+    color: #fa0303;
+    text-decoration: none;
+  }
+  
+  .partnered-post-footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .vertical-line {
+    border-left: 1px solid #cc00ff;
+    width: 10px;
+    height: 650px;
+    margin: 50px 40px 50px 0;
+  }
+
+  .socials {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials_size {
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    text-align: center;
+    /* background-color: #fc0; */
+    overflow: hidden;
+    /* width: 60vw; */
+    color: #ffffff;
+    text-shadow: rgb(247, 247, 247) 2px 1px 2px;
+    font-size: 30px;
+    font-family: Font1;
+}
+
+.socials h1 {
+    text-shadow: #cc00ff 10px 0 20px;
+}
+
+.socials h1 p {
+    text-shadow: rgb(204, 0, 255) 10px 0 20px;
+
+}
+
+.socials img {
+    padding: 20px;
+
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.socials img:hover {
+    transform: scale(1.5);
+    filter: drop-shadow(0 0 0.75rem rgb(204, 0, 255));
+    
+
+}
