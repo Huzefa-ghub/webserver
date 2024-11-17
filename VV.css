@@ -55,6 +55,9 @@ nav a {
     text-shadow: rgb(244, 3, 179) 10px 0 20px;
 
 }
+.docker h2 {
+    color: rebeccapurple;
+}
 
 .container {
     margin: 200px 0px 20px;
