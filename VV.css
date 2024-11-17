@@ -49,7 +49,7 @@ nav a {
 
 .docker {
     display: flex;
-    font-family: Font2;
+    font-family: Font1;
     justify-content: center;
     color: rgb(181, 0, 0);
     text-shadow: rgb(244, 3, 179) 10px 0 20px;
