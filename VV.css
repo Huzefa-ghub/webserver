@@ -51,8 +51,8 @@ nav a {
     display: flex;
     font-family: Font3;
     justify-content: center;
-    color: white;
-    text-shadow: rgb(255, 0, 4) 10px 0 20px;
+    color: rgb(255, 0, 0);
+    text-shadow: rgb(244, 3, 179) 10px 0 20px;
 
 }
 
