@@ -33,7 +33,11 @@ pipeline {
                 echo 'Deploying the website...'
                 // Copy built website files to the deployment directory
                sshagent(['deploy_user']) {
-                // some block
+                node {
+                  sshagent (credentials: ['deploy-dev']) {
+                sh 'ssh -i "linux-cloud.pem" ec2-user@ec2-15-207-249-165.ap-south-1.compute.amazonaws.com'
+                       }
+                    }
                 }
             }
         }
