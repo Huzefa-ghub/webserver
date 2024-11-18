@@ -32,11 +32,9 @@ pipeline {
             steps {
                 echo 'Deploying the website...'
                 // Copy built website files to the deployment directory
-                sh '''
-                    sudo rm -rf $DEPLOY_DIR/*
-                    sudo cp -r dist/* $DEPLOY_DIR/
-                '''
-                echo 'Deployment completed successfully.'
+               sshagent(['deploy_user']) {
+                // some block
+                }
             }
         }
     }
