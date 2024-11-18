@@ -32,10 +32,10 @@ pipeline {
             steps {
                 echo 'Deploying the website...'
                 // Copy built website files to the deployment directory
-               sshagent (credentials: ['deploy_user']) {
-                 sh 'ssh -o StrictHostKeyChecking=no target/* ec2-user@ec2-15-207-249-165:/var/www/html'
-                  }
-                }
+                     sshagent (credentials: ['deploy_user']) {
+                     sh 'ssh -o StrictHostKeyChecking=no workspace/target/* ec2-user@ec2-15-207-249-165:/var/www/html'
+                     }
+                 }
             }
         }
     }
