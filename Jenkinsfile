@@ -32,12 +32,9 @@ pipeline {
             steps {
                 echo 'Deploying the website...'
                 // Copy built website files to the deployment directory
-               sshagent(['deploy_user']) {
-                node {
-                  sshagent (credentials: ['deploy-dev']) {
-                sh 'ssh -i "linux-cloud.pem" ec2-user@ec2-15-207-249-165.ap-south-1.compute.amazonaws.com'
-                       }
-                    }
+               sshagent (credentials: ['deploy_user']) {
+                 sh 'ssh -o StrictHostKeyChecking=no target/* ec2-user@ec2-15-207-249-165:/var/www/html'
+                  }
                 }
             }
         }
