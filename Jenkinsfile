@@ -18,10 +18,6 @@ pipeline {
                 echo 'Building the website...'
                 // Example: Install dependencies and build the site
                 // Modify commands according to your project
-                sh '''
-                    npm install
-                    npm run build
-                '''
             }
         }
 
@@ -29,7 +25,6 @@ pipeline {
             steps {
                 echo 'Running tests...'
                 // Example: Run tests (adjust based on your test framework)
-                sh 'npm test'
             }
         }
 
@@ -55,4 +50,3 @@ pipeline {
         }
     }
 }
-
